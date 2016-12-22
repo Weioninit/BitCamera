@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 背景色 -->
+	<solid android:color="#000000"/>
+	<!-- 边框色 DIP就是一个像素密度 -->
+	<stroke android:width="2dip" android:color="#000000" />
+	<corners android:radius="1.5dp"/>
+
+</shape>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/loginForm"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+
+<TableRow>    	
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="IP:"
+	android:textSize="10pt"
+	/>
+<!-- 宿舍ip:192.168.1.112 热点ip:192.168.23.1 192.168.23.3-->
+<EditText
+    android:id="@+id/ipedittext"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:digits="0123456789."
+	android:hint="请填写前端侦察平台IP"
+	android:selectAllOnFocus="true"
+	android:inputType="phone"
+	android:text="192.168.43.1"
+
+	
+	/>
+</TableRow>
+
+</TableLayout>
